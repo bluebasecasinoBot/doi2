@@ -1066,7 +1066,7 @@ sydDOM.initInput = ({type,parent} = {}) =>{
     return createElement(
         'input',
         {
-            style:'height:35px;width:35px;border-radius:5px;background:#000;border:none;outline:none;text-align:center;font-size:18px;'+styleComponent.shadowIn(),
+            style:'height:35px;width:35px;border-radius:5px;border:none;outline:none;text-align:center;font-size:18px;'+styleComponent.shadowIn() +'background:grey;',
             maxlength:'1',
             oninput:`inputting(this,${type},'${parent}')`,
             class:'gamePrimeInput',
