@@ -1,1 +1,1 @@
-ws = new WebSocket('http://localhost:7080');
+ws = new WebSocket('wss://doi2-1582ba84015c.herokuapp.com');
