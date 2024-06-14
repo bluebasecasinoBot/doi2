@@ -46,7 +46,7 @@ sydDOM.container = () =>{
                 'input',
                 {
                     oninput:'inputting(this)',
-                    style:'max-width:400px;width:80%;color:#fff',
+                    style:'max-width:400px;width:80%;color:#fff;background:#000;',
                     type:'text'
                 }
             ),
